@@ -1,0 +1,3360 @@
+[
+	{
+		"created_at": "Thu May 17 18:28:31 +0000 2018",
+		"id": 997182088125341700,
+		"id_str": "997182088125341702",
+		"text": "At IBM, we believe in enhancing human capability through innovation. Learn how IBM Fellow Chieko Asakawa has dedica… https://t.co/vHQEpE1NC2",
+		"truncated": true,
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [
+				{
+					"url": "https://t.co/vHQEpE1NC2",
+					"expanded_url": "https://twitter.com/i/web/status/997182088125341702",
+					"display_url": "twitter.com/i/web/status/9…",
+					"indices": [
+						117,
+						140
+					]
+				}
+			]
+		},
+		"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 19,
+		"favorite_count": 39,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Thu May 17 16:59:42 +0000 2018",
+		"id": 997159737593647100,
+		"id_str": "997159737593647105",
+		"text": "RT @IBMResearch: Keio University establishes first #IBMQ Hub in Asia, a research center for #QuantumComputing. Learn more about the @IBM Q…",
+		"truncated": false,
+		"entities": {
+			"hashtags": [
+				{
+					"text": "IBMQ",
+					"indices": [
+						51,
+						56
+					]
+				},
+				{
+					"text": "QuantumComputing",
+					"indices": [
+						92,
+						109
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "IBMResearch",
+					"name": "IBM Research",
+					"id": 16319797,
+					"id_str": "16319797",
+					"indices": [
+						3,
+						15
+					]
+				},
+				{
+					"screen_name": "IBM",
+					"name": "IBM",
+					"id": 18994444,
+					"id_str": "18994444",
+					"indices": [
+						132,
+						136
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Thu May 17 14:54:29 +0000 2018",
+			"id": 997128226743963600,
+			"id_str": "997128226743963650",
+			"text": "Keio University establishes first #IBMQ Hub in Asia, a research center for #QuantumComputing. Learn more about the… https://t.co/NDlotb3GPz",
+			"truncated": true,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "IBMQ",
+						"indices": [
+							34,
+							39
+						]
+					},
+					{
+						"text": "QuantumComputing",
+						"indices": [
+							75,
+							92
+						]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/NDlotb3GPz",
+						"expanded_url": "https://twitter.com/i/web/status/997128226743963650",
+						"display_url": "twitter.com/i/web/status/9…",
+						"indices": [
+							116,
+							139
+						]
+					}
+				]
+			},
+			"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 16319797,
+				"id_str": "16319797",
+				"name": "IBM Research",
+				"screen_name": "IBMResearch",
+				"location": "12 labs on 6 continents.",
+				"description": "This is the official Twitter ID of IBM Research. The account is managed by Chris Sciacca and Elizabeth Koenig, and follows the IBM Social Computing Guidelines.",
+				"url": "http://t.co/bV4KRDcOkB",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "http://t.co/bV4KRDcOkB",
+								"expanded_url": "http://www.research.ibm.com/",
+								"display_url": "research.ibm.com",
+								"indices": [
+									0,
+									22
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 156400,
+				"friends_count": 886,
+				"listed_count": 3945,
+				"created_at": "Tue Sep 16 23:39:55 +0000 2008",
+				"favourites_count": 4141,
+				"utc_offset": -14400,
+				"time_zone": "Eastern Time (US & Canada)",
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 17701,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "E5E5E5",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/789215217/2e600a927a76c5908dd578db66a195fd.jpeg",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/789215217/2e600a927a76c5908dd578db66a195fd.jpeg",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/2453018418/fn1i02hac59i02ccd9c1_normal.jpeg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/2453018418/fn1i02hac59i02ccd9c1_normal.jpeg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/16319797/1488777423",
+				"profile_link_color": "0099CC",
+				"profile_sidebar_border_color": "FFFFFF",
+				"profile_sidebar_fill_color": "F2F2F2",
+				"profile_text_color": "141414",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 28,
+			"favorite_count": 53,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 28,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Thu May 17 11:44:04 +0000 2018",
+		"id": 997080306887766000,
+		"id_str": "997080306887766016",
+		"text": "RT @IBM: As #blockchain reshapes business models, see what major benefits for industries and society will take hold: https://t.co/VpjJbfRZw1",
+		"truncated": false,
+		"entities": {
+			"hashtags": [
+				{
+					"text": "blockchain",
+					"indices": [
+						12,
+						23
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "IBM",
+					"name": "IBM",
+					"id": 18994444,
+					"id_str": "18994444",
+					"indices": [
+						3,
+						7
+					]
+				}
+			],
+			"urls": [
+				{
+					"url": "https://t.co/VpjJbfRZw1",
+					"expanded_url": "https://read.bi/2IlZvzb",
+					"display_url": "read.bi/2IlZvzb",
+					"indices": [
+						117,
+						140
+					]
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Thu May 17 02:59:01 +0000 2018",
+			"id": 996948171510173700,
+			"id_str": "996948171510173697",
+			"text": "As #blockchain reshapes business models, see what major benefits for industries and society will take hold: https://t.co/VpjJbfRZw1",
+			"truncated": false,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "blockchain",
+						"indices": [
+							3,
+							14
+						]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/VpjJbfRZw1",
+						"expanded_url": "https://read.bi/2IlZvzb",
+						"display_url": "read.bi/2IlZvzb",
+						"indices": [
+							108,
+							131
+						]
+					}
+				]
+			},
+			"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 18994444,
+				"id_str": "18994444",
+				"name": "IBM",
+				"screen_name": "IBM",
+				"location": "Armonk, New York",
+				"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+				"url": "https://t.co/4ZyG9FgkYe",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/4ZyG9FgkYe",
+								"expanded_url": "https://www.ibm.com",
+								"display_url": "ibm.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 445500,
+				"friends_count": 6362,
+				"listed_count": 5436,
+				"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+				"favourites_count": 3501,
+				"utc_offset": -14400,
+				"time_zone": "Eastern Time (US & Canada)",
+				"geo_enabled": false,
+				"verified": true,
+				"statuses_count": 10839,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "FFFFFF",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+				"profile_link_color": "2FC2EF",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "252429",
+				"profile_text_color": "666666",
+				"profile_use_background_image": false,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 44,
+			"favorite_count": 75,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 44,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Thu May 17 07:50:38 +0000 2018",
+		"id": 997021560450895900,
+		"id_str": "997021560450895872",
+		"text": "@debraruh @Barclays @Microsoft @SAP @Apple @cosco @Atos @Deloitte @Accenture Thank you for the shout out Debra!… https://t.co/jj2vfiI1Cd",
+		"truncated": true,
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "debraruh",
+					"name": "Debra Ruh",
+					"id": 17905508,
+					"id_str": "17905508",
+					"indices": [
+						0,
+						9
+					]
+				},
+				{
+					"screen_name": "Barclays",
+					"name": "Barclays Bank",
+					"id": 191781601,
+					"id_str": "191781601",
+					"indices": [
+						10,
+						19
+					]
+				},
+				{
+					"screen_name": "Microsoft",
+					"name": "Microsoft",
+					"id": 74286565,
+					"id_str": "74286565",
+					"indices": [
+						20,
+						30
+					]
+				},
+				{
+					"screen_name": "SAP",
+					"name": "SAP",
+					"id": 76117579,
+					"id_str": "76117579",
+					"indices": [
+						31,
+						35
+					]
+				},
+				{
+					"screen_name": "Apple",
+					"name": "Apple",
+					"id": 380749300,
+					"id_str": "380749300",
+					"indices": [
+						36,
+						42
+					]
+				},
+				{
+					"screen_name": "cosco",
+					"name": "cosco",
+					"id": 11422772,
+					"id_str": "11422772",
+					"indices": [
+						43,
+						49
+					]
+				},
+				{
+					"screen_name": "Atos",
+					"name": "Atos",
+					"id": 39801655,
+					"id_str": "39801655",
+					"indices": [
+						50,
+						55
+					]
+				},
+				{
+					"screen_name": "Deloitte",
+					"name": "Deloitte",
+					"id": 8457092,
+					"id_str": "8457092",
+					"indices": [
+						56,
+						65
+					]
+				},
+				{
+					"screen_name": "Accenture",
+					"name": "Accenture",
+					"id": 10194682,
+					"id_str": "10194682",
+					"indices": [
+						66,
+						76
+					]
+				}
+			],
+			"urls": [
+				{
+					"url": "https://t.co/jj2vfiI1Cd",
+					"expanded_url": "https://twitter.com/i/web/status/997021560450895872",
+					"display_url": "twitter.com/i/web/status/9…",
+					"indices": [
+						113,
+						136
+					]
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": 997016246758641700,
+		"in_reply_to_status_id_str": "997016246758641664",
+		"in_reply_to_user_id": 17905508,
+		"in_reply_to_user_id_str": "17905508",
+		"in_reply_to_screen_name": "debraruh",
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 2,
+		"favorite_count": 5,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Thu May 17 02:59:01 +0000 2018",
+		"id": 996948171510173700,
+		"id_str": "996948171510173697",
+		"text": "As #blockchain reshapes business models, see what major benefits for industries and society will take hold: https://t.co/VpjJbfRZw1",
+		"truncated": false,
+		"entities": {
+			"hashtags": [
+				{
+					"text": "blockchain",
+					"indices": [
+						3,
+						14
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [
+				{
+					"url": "https://t.co/VpjJbfRZw1",
+					"expanded_url": "https://read.bi/2IlZvzb",
+					"display_url": "read.bi/2IlZvzb",
+					"indices": [
+						108,
+						131
+					]
+				}
+			]
+		},
+		"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 44,
+		"favorite_count": 75,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Wed May 16 21:34:47 +0000 2018",
+		"id": 996866575406944300,
+		"id_str": "996866575406944258",
+		"text": "RT @IBMWatson: Watson Speech to Text converts audio and voice into text so you can easily understand the content. https://t.co/qe5VrRyH6W #…",
+		"truncated": false,
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "IBMWatson",
+					"name": "IBM Watson",
+					"id": 29735775,
+					"id_str": "29735775",
+					"indices": [
+						3,
+						13
+					]
+				}
+			],
+			"urls": [
+				{
+					"url": "https://t.co/qe5VrRyH6W",
+					"expanded_url": "https://ibm.co/2IoeVPw",
+					"display_url": "ibm.co/2IoeVPw",
+					"indices": [
+						114,
+						137
+					]
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Wed May 16 20:47:07 +0000 2018",
+			"id": 996854582872600600,
+			"id_str": "996854582872600581",
+			"text": "Watson Speech to Text converts audio and voice into text so you can easily understand the content.… https://t.co/X7iA7LGJvy",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/X7iA7LGJvy",
+						"expanded_url": "https://twitter.com/i/web/status/996854582872600581",
+						"display_url": "twitter.com/i/web/status/9…",
+						"indices": [
+							100,
+							123
+						]
+					}
+				]
+			},
+			"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 29735775,
+				"id_str": "29735775",
+				"name": "IBM Watson",
+				"screen_name": "IBMWatson",
+				"location": "New York, NY",
+				"description": "Watson is #AI for professionals, designed for your business. Follows the IBM Social Computing Guidelines.",
+				"url": "https://t.co/DKI3KtJZF6",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/DKI3KtJZF6",
+								"expanded_url": "https://www.ibm.com/blogs/watson/",
+								"display_url": "ibm.com/blogs/watson/",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 220043,
+				"friends_count": 1672,
+				"listed_count": 4050,
+				"created_at": "Wed Apr 08 15:10:24 +0000 2009",
+				"favourites_count": 5033,
+				"utc_offset": -14400,
+				"time_zone": "Eastern Time (US & Canada)",
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 11581,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "004266",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/449282016756764672/jX0lVNfy.png",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/449282016756764672/jX0lVNfy.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/986987176700280833/wzJJCwre_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/986987176700280833/wzJJCwre_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/29735775/1516228408",
+				"profile_link_color": "1B95E0",
+				"profile_sidebar_border_color": "FFFFFF",
+				"profile_sidebar_fill_color": "F7F7F7",
+				"profile_text_color": "000000",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 129,
+			"favorite_count": 196,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 129,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Wed May 16 11:51:04 +0000 2018",
+		"id": 996719678549512200,
+		"id_str": "996719678549512193",
+		"text": "RT @IBM: Apple and IBM's new #AI service helps developers infuse machine learning into enterprise apps. Learn more: https://t.co/bTKHYUVOiH",
+		"truncated": false,
+		"entities": {
+			"hashtags": [
+				{
+					"text": "AI",
+					"indices": [
+						29,
+						32
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "IBM",
+					"name": "IBM",
+					"id": 18994444,
+					"id_str": "18994444",
+					"indices": [
+						3,
+						7
+					]
+				}
+			],
+			"urls": [
+				{
+					"url": "https://t.co/bTKHYUVOiH",
+					"expanded_url": "https://for.tn/2rIQKFc",
+					"display_url": "for.tn/2rIQKFc",
+					"indices": [
+						116,
+						139
+					]
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Wed May 16 02:44:29 +0000 2018",
+			"id": 996582126479925200,
+			"id_str": "996582126479925248",
+			"text": "Apple and IBM's new #AI service helps developers infuse machine learning into enterprise apps. Learn more: https://t.co/bTKHYUVOiH",
+			"truncated": false,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "AI",
+						"indices": [
+							20,
+							23
+						]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/bTKHYUVOiH",
+						"expanded_url": "https://for.tn/2rIQKFc",
+						"display_url": "for.tn/2rIQKFc",
+						"indices": [
+							107,
+							130
+						]
+					}
+				]
+			},
+			"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 18994444,
+				"id_str": "18994444",
+				"name": "IBM",
+				"screen_name": "IBM",
+				"location": "Armonk, New York",
+				"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+				"url": "https://t.co/4ZyG9FgkYe",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/4ZyG9FgkYe",
+								"expanded_url": "https://www.ibm.com",
+								"display_url": "ibm.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 445500,
+				"friends_count": 6362,
+				"listed_count": 5436,
+				"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+				"favourites_count": 3501,
+				"utc_offset": -14400,
+				"time_zone": "Eastern Time (US & Canada)",
+				"geo_enabled": false,
+				"verified": true,
+				"statuses_count": 10839,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "FFFFFF",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+				"profile_link_color": "2FC2EF",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "252429",
+				"profile_text_color": "666666",
+				"profile_use_background_image": false,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 143,
+			"favorite_count": 237,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 143,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Wed May 16 09:36:21 +0000 2018",
+		"id": 996685779039539200,
+		"id_str": "996685779039539200",
+		"text": "RT @IBM: Thanks @Rileycran for capturing this collection of IBM Selectric typeballs, which includes a variety of typefaces, symbols and eve…",
+		"truncated": false,
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "IBM",
+					"name": "IBM",
+					"id": 18994444,
+					"id_str": "18994444",
+					"indices": [
+						3,
+						7
+					]
+				},
+				{
+					"screen_name": "rileycran",
+					"name": "Riley Cran",
+					"id": 224837924,
+					"id_str": "224837924",
+					"indices": [
+						16,
+						26
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Tue May 15 18:50:46 +0000 2018",
+			"id": 996462911861280800,
+			"id_str": "996462911861280770",
+			"text": "Thanks @Rileycran for capturing this collection of IBM Selectric typeballs, which includes a variety of typefaces,… https://t.co/Jl8wlN9tNb",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "rileycran",
+						"name": "Riley Cran",
+						"id": 224837924,
+						"id_str": "224837924",
+						"indices": [
+							7,
+							17
+						]
+					}
+				],
+				"urls": [
+					{
+						"url": "https://t.co/Jl8wlN9tNb",
+						"expanded_url": "https://twitter.com/i/web/status/996462911861280770",
+						"display_url": "twitter.com/i/web/status/9…",
+						"indices": [
+							116,
+							139
+						]
+					}
+				]
+			},
+			"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 18994444,
+				"id_str": "18994444",
+				"name": "IBM",
+				"screen_name": "IBM",
+				"location": "Armonk, New York",
+				"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+				"url": "https://t.co/4ZyG9FgkYe",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/4ZyG9FgkYe",
+								"expanded_url": "https://www.ibm.com",
+								"display_url": "ibm.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 445500,
+				"friends_count": 6362,
+				"listed_count": 5436,
+				"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+				"favourites_count": 3501,
+				"utc_offset": -14400,
+				"time_zone": "Eastern Time (US & Canada)",
+				"geo_enabled": false,
+				"verified": true,
+				"statuses_count": 10839,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "FFFFFF",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+				"profile_link_color": "2FC2EF",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "252429",
+				"profile_text_color": "666666",
+				"profile_use_background_image": false,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 39,
+			"favorite_count": 166,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 39,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Wed May 16 02:44:29 +0000 2018",
+		"id": 996582126479925200,
+		"id_str": "996582126479925248",
+		"text": "Apple and IBM's new #AI service helps developers infuse machine learning into enterprise apps. Learn more: https://t.co/bTKHYUVOiH",
+		"truncated": false,
+		"entities": {
+			"hashtags": [
+				{
+					"text": "AI",
+					"indices": [
+						20,
+						23
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [
+				{
+					"url": "https://t.co/bTKHYUVOiH",
+					"expanded_url": "https://for.tn/2rIQKFc",
+					"display_url": "for.tn/2rIQKFc",
+					"indices": [
+						107,
+						130
+					]
+				}
+			]
+		},
+		"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 143,
+		"favorite_count": 237,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Tue May 15 18:50:46 +0000 2018",
+		"id": 996462911861280800,
+		"id_str": "996462911861280770",
+		"text": "Thanks @Rileycran for capturing this collection of IBM Selectric typeballs, which includes a variety of typefaces,… https://t.co/Jl8wlN9tNb",
+		"truncated": true,
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "rileycran",
+					"name": "Riley Cran",
+					"id": 224837924,
+					"id_str": "224837924",
+					"indices": [
+						7,
+						17
+					]
+				}
+			],
+			"urls": [
+				{
+					"url": "https://t.co/Jl8wlN9tNb",
+					"expanded_url": "https://twitter.com/i/web/status/996462911861280770",
+					"display_url": "twitter.com/i/web/status/9…",
+					"indices": [
+						116,
+						139
+					]
+				}
+			]
+		},
+		"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 39,
+		"favorite_count": 166,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Tue May 15 04:50:47 +0000 2018",
+		"id": 996251523242868700,
+		"id_str": "996251523242868738",
+		"text": "@ElevationAlly 👍",
+		"truncated": false,
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "ElevationAlly",
+					"name": "Elevation Ally",
+					"id": 878773780709036000,
+					"id_str": "878773780709036032",
+					"indices": [
+						0,
+						14
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": 996171021072896000,
+		"in_reply_to_status_id_str": "996171021072896006",
+		"in_reply_to_user_id": 878773780709036000,
+		"in_reply_to_user_id_str": "878773780709036032",
+		"in_reply_to_screen_name": "ElevationAlly",
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "und"
+	},
+	{
+		"created_at": "Tue May 15 04:50:11 +0000 2018",
+		"id": 996251374315753500,
+		"id_str": "996251374315753473",
+		"text": "@PackFootball @jacsw3 Welcome James. We hope you enjoy your internship!",
+		"truncated": false,
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "PackFootball",
+					"name": "NC State Football",
+					"id": 29761786,
+					"id_str": "29761786",
+					"indices": [
+						0,
+						13
+					]
+				},
+				{
+					"screen_name": "jacsw3",
+					"name": "James Smith-Williams",
+					"id": 1586405010,
+					"id_str": "1586405010",
+					"indices": [
+						14,
+						21
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": 996179639381975000,
+		"in_reply_to_status_id_str": "996179639381975040",
+		"in_reply_to_user_id": 29761786,
+		"in_reply_to_user_id_str": "29761786",
+		"in_reply_to_screen_name": "PackFootball",
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 5,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Tue May 15 04:31:37 +0000 2018",
+		"id": 996246701919780900,
+		"id_str": "996246701919780866",
+		"text": "RT @IBM: Scroll through this vintage poster collection that reflects the story of how IBM became a design powerhouse. https://t.co/KugUBZ0R…",
+		"truncated": false,
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "IBM",
+					"name": "IBM",
+					"id": 18994444,
+					"id_str": "18994444",
+					"indices": [
+						3,
+						7
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Mon May 14 16:34:08 +0000 2018",
+			"id": 996066139313754100,
+			"id_str": "996066139313754113",
+			"text": "Scroll through this vintage poster collection that reflects the story of how IBM became a design powerhouse.… https://t.co/Va8Dw4hLnY",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/Va8Dw4hLnY",
+						"expanded_url": "https://twitter.com/i/web/status/996066139313754113",
+						"display_url": "twitter.com/i/web/status/9…",
+						"indices": [
+							110,
+							133
+						]
+					}
+				]
+			},
+			"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 18994444,
+				"id_str": "18994444",
+				"name": "IBM",
+				"screen_name": "IBM",
+				"location": "Armonk, New York",
+				"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+				"url": "https://t.co/4ZyG9FgkYe",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/4ZyG9FgkYe",
+								"expanded_url": "https://www.ibm.com",
+								"display_url": "ibm.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 445500,
+				"friends_count": 6362,
+				"listed_count": 5436,
+				"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+				"favourites_count": 3501,
+				"utc_offset": -14400,
+				"time_zone": "Eastern Time (US & Canada)",
+				"geo_enabled": false,
+				"verified": true,
+				"statuses_count": 10839,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "FFFFFF",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+				"profile_link_color": "2FC2EF",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "252429",
+				"profile_text_color": "666666",
+				"profile_use_background_image": false,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 112,
+			"favorite_count": 228,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 112,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Mon May 14 18:51:45 +0000 2018",
+		"id": 996100773233774600,
+		"id_str": "996100773233774594",
+		"text": "Watch how IBMers are still creating amazing posters today! https://t.co/Ha8JWj4Sdh https://t.co/jWAjZiJ7ku",
+		"truncated": false,
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [
+				{
+					"url": "https://t.co/Ha8JWj4Sdh",
+					"expanded_url": "https://ibm.co/2wFkGHd",
+					"display_url": "ibm.co/2wFkGHd",
+					"indices": [
+						59,
+						82
+					]
+				}
+			],
+			"media": [
+				{
+					"id": 996100468349788200,
+					"id_str": "996100468349788160",
+					"indices": [
+						83,
+						106
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/DdLcGTCW4AABWyn.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DdLcGTCW4AABWyn.jpg",
+					"url": "https://t.co/jWAjZiJ7ku",
+					"display_url": "pic.twitter.com/jWAjZiJ7ku",
+					"expanded_url": "https://twitter.com/IBM/status/996100773233774594/photo/1",
+					"type": "photo",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"large": {
+							"w": 900,
+							"h": 506,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 900,
+							"h": 506,
+							"resize": "fit"
+						},
+						"small": {
+							"w": 680,
+							"h": 382,
+							"resize": "fit"
+						}
+					}
+				}
+			]
+		},
+		"extended_entities": {
+			"media": [
+				{
+					"id": 996100468349788200,
+					"id_str": "996100468349788160",
+					"indices": [
+						83,
+						106
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/DdLcGTCW4AABWyn.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DdLcGTCW4AABWyn.jpg",
+					"url": "https://t.co/jWAjZiJ7ku",
+					"display_url": "pic.twitter.com/jWAjZiJ7ku",
+					"expanded_url": "https://twitter.com/IBM/status/996100773233774594/photo/1",
+					"type": "animated_gif",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"large": {
+							"w": 900,
+							"h": 506,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 900,
+							"h": 506,
+							"resize": "fit"
+						},
+						"small": {
+							"w": 680,
+							"h": 382,
+							"resize": "fit"
+						}
+					},
+					"video_info": {
+						"aspect_ratio": [
+							450,
+							253
+						],
+						"variants": [
+							{
+								"bitrate": 0,
+								"content_type": "video/mp4",
+								"url": "https://video.twimg.com/tweet_video/DdLcGTCW4AABWyn.mp4"
+							}
+						]
+					}
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": 996066139313754100,
+		"in_reply_to_status_id_str": "996066139313754113",
+		"in_reply_to_user_id": 18994444,
+		"in_reply_to_user_id_str": "18994444",
+		"in_reply_to_screen_name": "IBM",
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 5,
+		"favorite_count": 16,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Mon May 14 16:34:08 +0000 2018",
+		"id": 996066139313754100,
+		"id_str": "996066139313754113",
+		"text": "Scroll through this vintage poster collection that reflects the story of how IBM became a design powerhouse.… https://t.co/Va8Dw4hLnY",
+		"truncated": true,
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [
+				{
+					"url": "https://t.co/Va8Dw4hLnY",
+					"expanded_url": "https://twitter.com/i/web/status/996066139313754113",
+					"display_url": "twitter.com/i/web/status/9…",
+					"indices": [
+						110,
+						133
+					]
+				}
+			]
+		},
+		"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 112,
+		"favorite_count": 228,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Mon May 14 09:20:13 +0000 2018",
+		"id": 995956940785139700,
+		"id_str": "995956940785139712",
+		"text": "RT @IBM: How @1800flowers is using the #IBMCloud Garage to innovate and build new customer experiences: https://t.co/xj8NRk7C0T via @ZDNet",
+		"truncated": false,
+		"entities": {
+			"hashtags": [
+				{
+					"text": "IBMCloud",
+					"indices": [
+						39,
+						48
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "IBM",
+					"name": "IBM",
+					"id": 18994444,
+					"id_str": "18994444",
+					"indices": [
+						3,
+						7
+					]
+				},
+				{
+					"screen_name": "1800flowers",
+					"name": "1-800-Flowers.com",
+					"id": 14780856,
+					"id_str": "14780856",
+					"indices": [
+						13,
+						25
+					]
+				},
+				{
+					"screen_name": "ZDNet",
+					"name": "ZDNet",
+					"id": 3819701,
+					"id_str": "3819701",
+					"indices": [
+						132,
+						138
+					]
+				}
+			],
+			"urls": [
+				{
+					"url": "https://t.co/xj8NRk7C0T",
+					"expanded_url": "https://zd.net/2L1FoE6",
+					"display_url": "zd.net/2L1FoE6",
+					"indices": [
+						104,
+						127
+					]
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Sun May 13 23:04:50 +0000 2018",
+			"id": 995802073940877300,
+			"id_str": "995802073940877312",
+			"text": "How @1800flowers is using the #IBMCloud Garage to innovate and build new customer experiences: https://t.co/xj8NRk7C0T via @ZDNet",
+			"truncated": false,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "IBMCloud",
+						"indices": [
+							30,
+							39
+						]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "1800flowers",
+						"name": "1-800-Flowers.com",
+						"id": 14780856,
+						"id_str": "14780856",
+						"indices": [
+							4,
+							16
+						]
+					},
+					{
+						"screen_name": "ZDNet",
+						"name": "ZDNet",
+						"id": 3819701,
+						"id_str": "3819701",
+						"indices": [
+							123,
+							129
+						]
+					}
+				],
+				"urls": [
+					{
+						"url": "https://t.co/xj8NRk7C0T",
+						"expanded_url": "https://zd.net/2L1FoE6",
+						"display_url": "zd.net/2L1FoE6",
+						"indices": [
+							95,
+							118
+						]
+					}
+				]
+			},
+			"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 18994444,
+				"id_str": "18994444",
+				"name": "IBM",
+				"screen_name": "IBM",
+				"location": "Armonk, New York",
+				"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+				"url": "https://t.co/4ZyG9FgkYe",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/4ZyG9FgkYe",
+								"expanded_url": "https://www.ibm.com",
+								"display_url": "ibm.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 445500,
+				"friends_count": 6362,
+				"listed_count": 5436,
+				"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+				"favourites_count": 3501,
+				"utc_offset": -14400,
+				"time_zone": "Eastern Time (US & Canada)",
+				"geo_enabled": false,
+				"verified": true,
+				"statuses_count": 10839,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "FFFFFF",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+				"profile_link_color": "2FC2EF",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "252429",
+				"profile_text_color": "666666",
+				"profile_use_background_image": false,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 41,
+			"favorite_count": 70,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 41,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Sun May 13 23:04:50 +0000 2018",
+		"id": 995802073940877300,
+		"id_str": "995802073940877312",
+		"text": "How @1800flowers is using the #IBMCloud Garage to innovate and build new customer experiences: https://t.co/xj8NRk7C0T via @ZDNet",
+		"truncated": false,
+		"entities": {
+			"hashtags": [
+				{
+					"text": "IBMCloud",
+					"indices": [
+						30,
+						39
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "1800flowers",
+					"name": "1-800-Flowers.com",
+					"id": 14780856,
+					"id_str": "14780856",
+					"indices": [
+						4,
+						16
+					]
+				},
+				{
+					"screen_name": "ZDNet",
+					"name": "ZDNet",
+					"id": 3819701,
+					"id_str": "3819701",
+					"indices": [
+						123,
+						129
+					]
+				}
+			],
+			"urls": [
+				{
+					"url": "https://t.co/xj8NRk7C0T",
+					"expanded_url": "https://zd.net/2L1FoE6",
+					"display_url": "zd.net/2L1FoE6",
+					"indices": [
+						95,
+						118
+					]
+				}
+			]
+		},
+		"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 41,
+		"favorite_count": 70,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Fri May 11 16:02:07 +0000 2018",
+		"id": 994970920774086700,
+		"id_str": "994970920774086656",
+		"text": "RT @IBM: .@NCState to become 1st university-based #IBMQ hub in North America: https://t.co/JBSmlMqj5C #quantum",
+		"truncated": false,
+		"entities": {
+			"hashtags": [
+				{
+					"text": "IBMQ",
+					"indices": [
+						50,
+						55
+					]
+				},
+				{
+					"text": "quantum",
+					"indices": [
+						102,
+						110
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "IBM",
+					"name": "IBM",
+					"id": 18994444,
+					"id_str": "18994444",
+					"indices": [
+						3,
+						7
+					]
+				},
+				{
+					"screen_name": "NCState",
+					"name": "NC State University",
+					"id": 487624974,
+					"id_str": "487624974",
+					"indices": [
+						10,
+						18
+					]
+				}
+			],
+			"urls": [
+				{
+					"url": "https://t.co/JBSmlMqj5C",
+					"expanded_url": "http://bitly.com/2G5pSDD",
+					"display_url": "bitly.com/2G5pSDD",
+					"indices": [
+						78,
+						101
+					]
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Fri May 11 03:47:28 +0000 2018",
+			"id": 994786038236287000,
+			"id_str": "994786038236286976",
+			"text": ".@NCState to become 1st university-based #IBMQ hub in North America: https://t.co/JBSmlMqj5C #quantum",
+			"truncated": false,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "IBMQ",
+						"indices": [
+							41,
+							46
+						]
+					},
+					{
+						"text": "quantum",
+						"indices": [
+							93,
+							101
+						]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "NCState",
+						"name": "NC State University",
+						"id": 487624974,
+						"id_str": "487624974",
+						"indices": [
+							1,
+							9
+						]
+					}
+				],
+				"urls": [
+					{
+						"url": "https://t.co/JBSmlMqj5C",
+						"expanded_url": "http://bitly.com/2G5pSDD",
+						"display_url": "bitly.com/2G5pSDD",
+						"indices": [
+							69,
+							92
+						]
+					}
+				]
+			},
+			"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 18994444,
+				"id_str": "18994444",
+				"name": "IBM",
+				"screen_name": "IBM",
+				"location": "Armonk, New York",
+				"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+				"url": "https://t.co/4ZyG9FgkYe",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/4ZyG9FgkYe",
+								"expanded_url": "https://www.ibm.com",
+								"display_url": "ibm.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 445500,
+				"friends_count": 6362,
+				"listed_count": 5436,
+				"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+				"favourites_count": 3501,
+				"utc_offset": -14400,
+				"time_zone": "Eastern Time (US & Canada)",
+				"geo_enabled": false,
+				"verified": true,
+				"statuses_count": 10839,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "FFFFFF",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+				"profile_link_color": "2FC2EF",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "252429",
+				"profile_text_color": "666666",
+				"profile_use_background_image": false,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 126,
+			"favorite_count": 222,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 126,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Fri May 11 03:47:28 +0000 2018",
+		"id": 994786038236287000,
+		"id_str": "994786038236286976",
+		"text": ".@NCState to become 1st university-based #IBMQ hub in North America: https://t.co/JBSmlMqj5C #quantum",
+		"truncated": false,
+		"entities": {
+			"hashtags": [
+				{
+					"text": "IBMQ",
+					"indices": [
+						41,
+						46
+					]
+				},
+				{
+					"text": "quantum",
+					"indices": [
+						93,
+						101
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "NCState",
+					"name": "NC State University",
+					"id": 487624974,
+					"id_str": "487624974",
+					"indices": [
+						1,
+						9
+					]
+				}
+			],
+			"urls": [
+				{
+					"url": "https://t.co/JBSmlMqj5C",
+					"expanded_url": "http://bitly.com/2G5pSDD",
+					"display_url": "bitly.com/2G5pSDD",
+					"indices": [
+						69,
+						92
+					]
+				}
+			]
+		},
+		"source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 126,
+		"favorite_count": 222,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Thu May 10 15:01:02 +0000 2018",
+		"id": 994593158175522800,
+		"id_str": "994593158175522816",
+		"text": "@Shannonacacia Congratulations, Shannon 🎉 and good luck!",
+		"truncated": false,
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "Shannonacacia",
+					"name": "Shannon Wilson",
+					"id": 887703676474798100,
+					"id_str": "887703676474798080",
+					"indices": [
+						0,
+						14
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": 994590989846286300,
+		"in_reply_to_status_id_str": "994590989846286337",
+		"in_reply_to_user_id": 887703676474798100,
+		"in_reply_to_user_id_str": "887703676474798080",
+		"in_reply_to_screen_name": "Shannonacacia",
+		"user": {
+			"id": 18994444,
+			"id_str": "18994444",
+			"name": "IBM",
+			"screen_name": "IBM",
+			"location": "Armonk, New York",
+			"description": "Together with our clients, we're using technologies like AI, cloud, blockchain and IoT to transform business, industries and the world. Let’s put smart to work.",
+			"url": "https://t.co/4ZyG9FgkYe",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/4ZyG9FgkYe",
+							"expanded_url": "https://www.ibm.com",
+							"display_url": "ibm.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 445500,
+			"friends_count": 6362,
+			"listed_count": 5436,
+			"created_at": "Wed Jan 14 20:41:57 +0000 2009",
+			"favourites_count": 3501,
+			"utc_offset": -14400,
+			"time_zone": "Eastern Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": true,
+			"statuses_count": 10839,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "FFFFFF",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000152426467/Viwc1IvP.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/925460050994270208/2IXQLOut_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/18994444/1516234232",
+			"profile_link_color": "2FC2EF",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "252429",
+			"profile_text_color": "666666",
+			"profile_use_background_image": false,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 1,
+		"favorite_count": 2,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	}
+]
