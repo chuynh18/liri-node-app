@@ -1,4 +1,5 @@
 require("dotenv").config();
+var request = require("request");
 var fs = require("fs");
 var Twitter = require('twitter');
 var Spotify = require('node-spotify-api');
@@ -21,8 +22,10 @@ var getTweets = function() {
     var twitterUserName = process.argv[3];
     var params = {screen_name: twitterUserName, count: 20};
     if (process.argv[3] === "--help") {
+        console.log("");
         console.log("get-tweets [<username>]        retrieves last 20 tweets from the specified Twitter username and displays them");
         console.log("get-tweets [<username>] save   retrieves last 20 tweets from the specified Twitter username, displays them, and saves the raw JSON response to twitter.txt");
+        console.log("");
     }
     else {
         twitterApi.get('statuses/user_timeline', params, function(error, tweets, response) {
@@ -53,8 +56,11 @@ var getTweets = function() {
 
 var getSpotify = function() {
     if (process.argv[3] === "--help") {
+        console.log("");
         console.log("spotify-this-song [<song>]        searches Spotify and returns basic information about the specified song");
         console.log("spotify-this-song [<song>] save   searches Spotify and returns basic information about the specified song, and saves the raw JSON response to spotify.txt");
+        console.log("");
+        console.log("if no song is specified, spotify-this-song defaults to 'The Sign' by Ace of Base");
     }
     else {
         var query = process.argv[3];
@@ -97,6 +103,46 @@ var getSpotify = function() {
     };
 };
 
+var movieSearch = function() {
+    var movie = process.argv[3];
+    if (movie === "--help") {
+        console.log("");
+        console.log("movie-this [<movie>]        searches OMDb and returns basic information about the specified movie");
+        console.log("movie-this [<movie>] save   searches OMDb and returns basic information about the specified movie and saves the raw JSON response to movie.txt");
+        console.log("");
+        console.log("if no movie is specified, movie-this defaults to 'Mr. Nobody'");
+
+    }
+    else {
+        if (movie === undefined) {
+            movie = "Mr. Nobody";
+        };
+        request("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy", function(error, response, body) {
+            // If the request is successful (i.e. if the response status code is 200)
+            if (!error && response.statusCode === 200) {
+
+                // console.log(JSON.parse(body));
+                console.log("Movie title: " + JSON.parse(body).Title);
+                console.log("Year: " + JSON.parse(body).Year);
+                console.log(JSON.parse(body).Ratings[0].Source + " rating: " + JSON.parse(body).Ratings[0].Value);
+                console.log(JSON.parse(body).Ratings[1].Source + " rating: " + JSON.parse(body).Ratings[1].Value);
+                console.log("Country of origin: " + JSON.parse(body).Country);
+                console.log("Language: " + JSON.parse(body).Language);
+                console.log("Plot: " + JSON.parse(body).Plot);
+                console.log("Actors: " + JSON.parse(body).Actors);
+            };
+            if (process.argv[4] === "save") {
+                fs.writeFile("movie.txt", JSON.stringify(JSON.parse(body), null, '\t'), function(err) {
+                    // If the code experiences any errors it will log the error to the console.
+                    if (err) {
+                        return console.log(err);
+                    };
+                });
+            };
+        });
+    };
+};
+
 var educateUser = function() {
     console.log("liri.js: Invalid command or argument, or no command was specified.")
     console.log("");
@@ -107,6 +153,7 @@ var educateUser = function() {
     console.log("get-tweets [<username>]      retrieves last 20 tweets from the specified Twitter username and displays them");
     console.log("my-tweets                    gently nudges the user into using 'get-tweets' instead");
     console.log("spotify-this-song [<song>]   searches Spotify and returns basic information about the specified song");
+    console.log("movie-this [<movie>]         searches OMDb and returns basic information about the specified movie");
     console.log("");
     console.log("Type 'node liri.js <command> --help' for additional information about specific commands.");
 };
@@ -123,6 +170,14 @@ switch(arg) {
 
     case "spotify-this-song":
     getSpotify();
+    break;
+
+    case "movie-this":
+    movieSearch();
+    break;
+
+    case "do-what-it-says":
+
     break;
 
     // I personally never RTFM, so what better way to make me RTFM than to print out the manual itself?
