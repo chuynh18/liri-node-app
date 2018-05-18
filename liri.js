@@ -18,9 +18,12 @@ var spotifyApi = new Spotify({
     secret: process.env.SPOTIFY_SECRET,
   });
 
-var getTweets = function() {
+var getTweets = function(argument) {
     var twitterUserName = process.argv[3];
     var params = {screen_name: twitterUserName, count: 20};
+    if (argument !== undefined) {
+        params = {screen_name: argument, count: 20};
+    };
     if (process.argv[3] === "--help") {
         console.log("");
         console.log("get-tweets [<username>]        retrieves last 20 tweets from the specified Twitter username and displays them");
@@ -54,7 +57,7 @@ var getTweets = function() {
     };
 };
 
-var getSpotify = function() {
+var getSpotify = function(argument) {
     if (process.argv[3] === "--help") {
         console.log("");
         console.log("spotify-this-song [<song>]        searches Spotify and returns basic information about the specified song");
@@ -64,8 +67,11 @@ var getSpotify = function() {
     }
     else {
         var query = process.argv[3];
-        if (query === undefined) {
+        if (query === undefined && argument === undefined) {
             query = "Ace of Base The Sign";
+        }
+        else if (argument !== undefined) {
+            query = argument;
         };
         spotifyApi
         .request('https://api.spotify.com/v1/search?q=' + query + "&type=track")
@@ -103,7 +109,7 @@ var getSpotify = function() {
     };
 };
 
-var movieSearch = function() {
+var movieSearch = function(argument) {
     var movie = process.argv[3];
     if (movie === "--help") {
         console.log("");
@@ -111,11 +117,13 @@ var movieSearch = function() {
         console.log("movie-this [<movie>] save   searches OMDb and returns basic information about the specified movie and saves the raw JSON response to movie.txt");
         console.log("");
         console.log("if no movie is specified, movie-this defaults to 'Mr. Nobody'");
-
     }
     else {
-        if (movie === undefined) {
+        if (movie === undefined && argument === undefined) {
             movie = "Mr. Nobody";
+        }
+        else if (argument !== undefined) {
+            movie = argument;
         };
         request("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy", function(error, response, body) {
             // If the request is successful (i.e. if the response status code is 200)
@@ -143,6 +151,36 @@ var movieSearch = function() {
     };
 };
 
+var doWhatItSays = function() {
+    if (process.argv[3] === "--help") {
+        console.log("");
+        console.log("do-what-it-says   reads and executes the instructions contained in random.txt.  expected format for random.txt is '<command>,[<argument>]'");
+    }
+    else {
+        fs.readFile("random.txt", "utf8", function(error, data) {
+            if (error) {
+                return console.log(error);
+            };
+            var dataArr = data.split(",");
+            if (dataArr[0] === "get-tweets") {
+                getTweets(dataArr[1]);
+            }
+            else if (dataArr[0] === "my-tweets") {
+                console.log("No.  I don't use social media.  But for the purposes of this homework assignment, please use 'node liri.js get-tweets [<username>]'");
+            }
+            else if (dataArr[0] === "spotify-this-song") {
+                getSpotify(dataArr[1]);
+            }
+            else if (dataArr[0] === "movie-this") {
+                movieSearch(dataArr[1]);
+            }
+            else if (dataArr[0] === "do-what-it-says") {
+                console.log("I'm not falling for your recursion!");
+            }
+        });
+    };
+};
+
 var educateUser = function() {
     console.log("liri.js: Invalid command or argument, or no command was specified.")
     console.log("");
@@ -154,6 +192,7 @@ var educateUser = function() {
     console.log("my-tweets                    gently nudges the user into using 'get-tweets' instead");
     console.log("spotify-this-song [<song>]   searches Spotify and returns basic information about the specified song");
     console.log("movie-this [<movie>]         searches OMDb and returns basic information about the specified movie");
+    console.log("do-what-it-says              reads and executes the instructions contained in random.txt.  expected format for random.txt is '<command>,[<argument>]'");
     console.log("");
     console.log("Type 'node liri.js <command> --help' for additional information about specific commands.");
 };
@@ -177,7 +216,7 @@ switch(arg) {
     break;
 
     case "do-what-it-says":
-
+    doWhatItSays();
     break;
 
     // I personally never RTFM, so what better way to make me RTFM than to print out the manual itself?
