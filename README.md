@@ -13,12 +13,12 @@ Usage:  Type `node liri.js get-tweets [&lt;username&gt;]`, where `[&lt;username&
 Spotify
 -------
 
-Usage:  Type `node liri.js spotify-this-song [&lt;song&gt;]`, where `[&lt;song&gt;]` is the name of a song.  You will then see matching results.  Each result will give you the artist(s), track name, preview URL (if applicable), and album that the song is from.
+Usage:  Type `node liri.js spotify-this-song [<song>]`, where `[<song>]` is the name of a song.  You will then see matching results.  Each result will give you the artist(s), track name, preview URL (if applicable), and album that the song is from.
 
 OMDb
 ----
 
-Usage:  Type `node liri.js movie-this [&lt;movie&gt;]`, where `[&lt;movie&gt;]` is the title of a movie.  You will then see information about that specific movie.
+Usage:  Type `node liri.js movie-this [<movie>]`, where `[<movie>]` is the title of a movie.  You will then see information about that specific movie.
 
 Other
 -----
