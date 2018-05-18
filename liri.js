@@ -57,6 +57,16 @@ var getTweets = function(argument) {
     };
 };
 
+var myTweets = function() {
+    if (process.argv[3] === "--help") {
+        console.log("'YOU CANNOT BE SERIOUS!' -John McEnroe");
+        console.log("my-tweets   gently nudges the user into using 'get-tweets' instead");
+    }
+    else {
+        console.log("No.  I don't use social media.  But for the purposes of this homework assignment, please use 'node liri.js get-tweets [<username>]'");
+    };
+};
+
 var getSpotify = function(argument) {
     if (process.argv[3] === "--help") {
         console.log("");
@@ -166,6 +176,7 @@ var doWhatItSays = function() {
                 getTweets(dataArr[1]);
             }
             else if (dataArr[0] === "my-tweets") {
+                console.log("Why on earth would you use random.txt to execute 'my-tweets'?");
                 console.log("No.  I don't use social media.  But for the purposes of this homework assignment, please use 'node liri.js get-tweets [<username>]'");
             }
             else if (dataArr[0] === "spotify-this-song") {
@@ -204,7 +215,7 @@ switch(arg) {
     break;
 
     case "my-tweets":
-    console.log("No.  I don't use social media.  But for the purposes of this homework assignment, please use 'node liri.js get-tweets [<username>]'");
+    myTweets();
     break;
 
     case "spotify-this-song":
