@@ -8,7 +8,7 @@ This guide is written assuming that your current working directory is the direct
 Twitter
 -------
 
-Usage:  Type `node liri.js get-tweets [&lt;username&gt;]`, where `[&lt;username&gt;]` is a Twitter username (what you'd see after "twitter.com/").  You will then see the 20 latest tweets from the specified user.
+Usage:  Type `node liri.js get-tweets [<username>]`, where `[<username>]` is a Twitter username (what you'd see after "twitter.com/").  You will then see the 20 latest tweets from the specified user.
 
 Spotify
 -------
