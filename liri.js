@@ -79,10 +79,10 @@ var getSpotify = function(argument) {
     }
     else {
         var query = process.argv[3];
-        if (query === undefined && argument === undefined) {
+        if (!query && !argument) {
             query = "Ace of Base The Sign";
         }
-        else if (argument !== undefined) {
+        else if (argument) {
             query = argument;
         };
         spotifyApi
@@ -131,28 +131,32 @@ var movieSearch = function(argument) {
         console.log("if no movie is specified, movie-this defaults to 'Mr. Nobody'");
     }
     else {
-        if (movie === undefined && argument === undefined) {
+        if (!movie && !argument) {
             movie = "Mr. Nobody";
         }
-        else if (argument !== undefined) {
+        else if (argument) {
             movie = argument;
         };
         request("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy", function(error, response, body) {
             // If the request is successful (i.e. if the response status code is 200)
             if (!error && response.statusCode === 200) {
-
-                // console.log(JSON.parse(body));
-                console.log("Movie title: " + JSON.parse(body).Title);
-                console.log("Year: " + JSON.parse(body).Year);
-                console.log(JSON.parse(body).Ratings[0].Source + " rating: " + JSON.parse(body).Ratings[0].Value);
-                console.log(JSON.parse(body).Ratings[1].Source + " rating: " + JSON.parse(body).Ratings[1].Value);
-                console.log("Country of origin: " + JSON.parse(body).Country);
-                console.log("Language: " + JSON.parse(body).Language);
-                console.log("Plot: " + JSON.parse(body).Plot);
-                console.log("Actors: " + JSON.parse(body).Actors);
+                var omdbResponse = JSON.parse(body);
+                if (omdbResponse.Response === "False") {
+                    console.log("Sorry, movie not found.  Please revise your search and try again.")
+                }
+                else {
+                    console.log("Movie title: " + omdbResponse.Title);
+                    console.log("Year: " + omdbResponse.Year);
+                    console.log(omdbResponse.Ratings[0].Source + " rating: " + omdbResponse.Ratings[0].Value);
+                    console.log(omdbResponse.Ratings[1].Source + " rating: " + omdbResponse.Ratings[1].Value);
+                    console.log("Country of origin: " + omdbResponse.Country);
+                    console.log("Language: " + omdbResponse.Language);
+                    console.log("Plot: " + omdbResponse.Plot);
+                    console.log("Actors: " + omdbResponse.Actors);
+                };
             };
             if (process.argv[4] === "save") {
-                fs.writeFile("movie.txt", JSON.stringify(JSON.parse(body), null, '\t'), function(err) {
+                fs.writeFile("movie.txt", JSON.stringify(omdbResponse, null, '\t'), function(err) {
                     // If the code experiences any errors it will log the error to the console.
                     if (err) {
                         return console.log(err);
@@ -179,7 +183,7 @@ var doWhatItSays = function() {
             }
             else if (dataArr[0] === "my-tweets") {
                 console.log("Why on earth would you use random.txt to execute 'my-tweets'?");
-                console.log("No.  I don't use social media.  But for the purposes of this homework assignment, please use 'node liri.js get-tweets [<username>]'");
+                myTweets();
             }
             else if (dataArr[0] === "spotify-this-song") {
                 getSpotify(dataArr[1]);
@@ -211,7 +215,6 @@ var educateUser = function() {
 };
 
 switch(arg) {
-
     case "get-tweets":
     getTweets();
     break;
