@@ -6,7 +6,6 @@ var fs = require("fs");
 var Twitter = require('twitter');
 var Spotify = require('node-spotify-api');
 var keys = require("./keys.js");
-var arg = process.argv[2];
 
 var twitterApi = new Twitter({
     consumer_key: process.env.TWITTER_CONSUMER_KEY,
@@ -21,9 +20,8 @@ var spotifyApi = new Spotify({
   });
 
 var getTweets = function(argument) {
-    var twitterUserName = process.argv[3];
-    var params = {screen_name: twitterUserName, count: 20};
-    if (argument !== undefined) {
+    var params = {screen_name: process.argv[3], count: 20};
+    if (argument) {
         params = {screen_name: argument, count: 20};
     };
     if (process.argv[3] === "--help") {
@@ -35,25 +33,34 @@ var getTweets = function(argument) {
     else {
         twitterApi.get('statuses/user_timeline', params, function(error, tweets, response) {
             if (!error) {
-            
-                console.log("Retrieving last 20 tweets from Twitter user " + JSON.parse(response.body)[0].user.screen_name + "...");
-                console.log("");
+                var twitterResponse = JSON.parse(response.body);
+    
+                if (!twitterResponse[0]) {
+                    console.log ("This user has not tweeted.  Please try searching for someone else!");
+                }
+                else {
+                    console.log("Retrieving last 20 tweets from Twitter user " + twitterResponse[0].user.screen_name + "...");
+                    console.log("");
 
-                for (var i = 0; i < JSON.parse(response.body).length; i++) {
-                    console.log("Tweet #" + (i+1) + " by " + JSON.parse(response.body)[i].user.name + " (" + JSON.parse(response.body)[i].user.screen_name + ")");
-                    console.log("Tweeted on: " + JSON.parse(response.body)[i].created_at);
-                    console.log(JSON.parse(response.body)[i].text);
-                    console.log("------------------------------------------------------------");
-                };
+                    for (var i = 0; i < twitterResponse.length; i++) {
+                        console.log("Tweet #" + (i+1) + " by " + twitterResponse[i].user.name + " (" + twitterResponse[i].user.screen_name + ")");
+                        console.log("Tweeted on: " + twitterResponse[i].created_at);
+                        console.log(twitterResponse[i].text);
+                        console.log("------------------------------------------------------------");
+                    };
 
-                if (process.argv[4] === "save") {
-                    fs.writeFile("twitter.txt", JSON.stringify(JSON.parse(response.body),null,'\t'), function(err) {
-                        // If the code experiences any errors it will log the error to the console.
-                        if (err) {
-                            return console.log(err);
-                        };
-                    });
+                    if (process.argv[4] === "save") {
+                        fs.writeFile("twitter.txt", JSON.stringify(twitterResponse,null,'\t'), function(err) {
+                            // If the code experiences any errors it will log the error to the console.
+                            if (err) {
+                                return console.log(err);
+                            };
+                        });
+                    };
                 };
+            }
+            else if (error) {
+                console.log("Error code " + error[0].code + " has occurred: '" + error[0].message + "'");
             };
         });
     };
@@ -101,7 +108,7 @@ var getSpotify = function(argument) {
                     artists = artists.slice(0,(artists.length-2)); // remove the trailing comma space (", ") coming from the for loop
                     console.log("Artist(s): " + artists);
                     console.log("Track name: " + data.tracks.items[i].name);
-                    if (data.tracks.items[i].preview_url != null) {
+                    if (data.tracks.items[i].preview_url) {
                         console.log("Preview link: " + data.tracks.items[i].preview_url);
                     }
                     else {
@@ -219,7 +226,7 @@ var educateUser = function() {
     console.log("Type 'node liri.js <command> --help' for additional information about specific commands.");
 };
 
-switch(arg) {
+switch(process.argv[2]) {
     case "get-tweets":
     getTweets();
     break;
