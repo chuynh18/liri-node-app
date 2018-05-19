@@ -88,31 +88,36 @@ var getSpotify = function(argument) {
         spotifyApi
         .request('https://api.spotify.com/v1/search?q=' + query + "&type=track")
         .then(function(data) {
-            for (var i = 0; i < data.tracks.items.length; i++) {
-                console.log("Result #" + (i+1) + "...");
-                var artists = "";
-                for (var j = 0; j < data.tracks.items[i].artists.length; j++) {
-                    artists += data.tracks.items[i].artists[j].name + ", ";
-                };
-                artists = artists.slice(0,(artists.length-2));
-                console.log("Artist(s): " + artists);
-                console.log("Track name: " + data.tracks.items[i].name);
-                if (data.tracks.items[i].preview_url != null) {
-                    console.log("Preview link: " + data.tracks.items[i].preview_url);
-                }
-                else {
-                    console.log("Sorry, no preview URL available.");
-                };
-                console.log("Album: " + data.tracks.items[i].album.name);
-                console.log("------------------------------------------------------------");
-            };
-            if (process.argv[4] === "save") {
-                fs.writeFile("spotify.txt", JSON.stringify(data, null, '\t'), function(err) {
-                    // If the code experiences any errors it will log the error to the console.
-                    if (err) {
-                        return console.log(err);
+            if (!data.tracks.total) {
+                console.log("No results found.  Please revise your search and try again.");
+            }
+            else {
+                for (var i = 0; i < data.tracks.items.length; i++) {
+                    console.log("Result #" + (i+1) + "...");
+                    var artists = "";
+                    for (var j = 0; j < data.tracks.items[i].artists.length; j++) {
+                        artists += data.tracks.items[i].artists[j].name + ", ";
                     };
-                });
+                    artists = artists.slice(0,(artists.length-2)); // remove the trailing comma space (", ") coming from the for loop
+                    console.log("Artist(s): " + artists);
+                    console.log("Track name: " + data.tracks.items[i].name);
+                    if (data.tracks.items[i].preview_url != null) {
+                        console.log("Preview link: " + data.tracks.items[i].preview_url);
+                    }
+                    else {
+                        console.log("Sorry, no preview URL available.");
+                    };
+                    console.log("Album: " + data.tracks.items[i].album.name);
+                    console.log("------------------------------------------------------------");
+                };
+                if (process.argv[4] === "save") {
+                    fs.writeFile("spotify.txt", JSON.stringify(data, null, '\t'), function(err) {
+                        // If the code experiences any errors it will log the error to the console.
+                        if (err) {
+                            return console.log(err);
+                        };
+                    });
+                };
             };
         })
         .catch(function(err) {
@@ -142,7 +147,7 @@ var movieSearch = function(argument) {
             if (!error && response.statusCode === 200) {
                 var omdbResponse = JSON.parse(body);
                 if (omdbResponse.Response === "False") {
-                    console.log("Sorry, movie not found.  Please revise your search and try again.")
+                    console.log("Sorry, movie not found.  Please revise your search and try again.  Note that OMDb search is very picky!")
                 }
                 else {
                     console.log("Movie title: " + omdbResponse.Title);
