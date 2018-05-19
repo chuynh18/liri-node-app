@@ -95,26 +95,28 @@ var getSpotify = function(argument) {
         spotifyApi
         .request('https://api.spotify.com/v1/search?q=' + query + "&type=track")
         .then(function(data) {
-            if (!data.tracks.total) {
+            var spotifyData = data.tracks;
+
+            if (!spotifyData.total) {
                 console.log("No results found.  Please revise your search and try again.");
             }
             else {
-                for (var i = 0; i < data.tracks.items.length; i++) {
+                for (var i = 0; i < spotifyData.items.length; i++) {
                     console.log("Result #" + (i+1) + "...");
                     var artists = "";
-                    for (var j = 0; j < data.tracks.items[i].artists.length; j++) {
-                        artists += data.tracks.items[i].artists[j].name + ", ";
+                    for (var j = 0; j < spotifyData.items[i].artists.length; j++) {
+                        artists += spotifyData.items[i].artists[j].name + ", ";
                     };
                     artists = artists.slice(0,(artists.length-2)); // remove the trailing comma space (", ") coming from the for loop
                     console.log("Artist(s): " + artists);
-                    console.log("Track name: " + data.tracks.items[i].name);
-                    if (data.tracks.items[i].preview_url) {
-                        console.log("Preview link: " + data.tracks.items[i].preview_url);
+                    console.log("Track name: " + spotifyData.items[i].name);
+                    if (spotifyData.items[i].preview_url) {
+                        console.log("Preview link: " + spotifyData.items[i].preview_url);
                     }
                     else {
                         console.log("Sorry, no preview URL available.");
                     };
-                    console.log("Album: " + data.tracks.items[i].album.name);
+                    console.log("Album: " + spotifyData.items[i].album.name);
                     console.log("------------------------------------------------------------");
                 };
                 if (process.argv[4] === "save") {
@@ -211,12 +213,9 @@ var doWhatItSays = function() {
 };
 
 var educateUser = function() {
-    console.log("liri.js: Invalid command or argument, or no command was specified.")
-    console.log("");
-    console.log("Usage: node liri.js <command> [<args>]");
-    console.log("");
-    console.log("liri.js has several commands, which each require different arguments.");
-    console.log("");
+    console.log("liri.js: Invalid command or argument, or no command was specified.\n")
+    console.log("Usage: node liri.js <command> [<args>]\n");
+    console.log("liri.js has several commands, which each require different arguments.\n");
     console.log("get-tweets [<username>]      retrieves last 20 tweets from the specified Twitter username and displays them");
     console.log("my-tweets                    gently nudges the user into using 'get-tweets' instead");
     console.log("spotify-this-song [<song>]   searches Spotify and returns basic information about the specified song");
