@@ -6,6 +6,8 @@ var fs = require("fs");
 var Twitter = require('twitter');
 var Spotify = require('node-spotify-api');
 var keys = require("./keys.js");
+var userCommand = process.argv[2];
+var fromRandom;
 
 var twitterApi = new Twitter({
     consumer_key: process.env.TWITTER_CONSUMER_KEY,
@@ -192,22 +194,14 @@ var doWhatItSays = function() {
                 return console.log(error);
             };
             var dataArr = data.split(",");
-            if (dataArr[0] === "get-tweets") {
-                getTweets(dataArr[1]);
-            }
-            else if (dataArr[0] === "my-tweets") {
-                console.log("Why on earth would you use random.txt to execute 'my-tweets'?");
-                myTweets();
-            }
-            else if (dataArr[0] === "spotify-this-song") {
-                getSpotify(dataArr[1]);
-            }
-            else if (dataArr[0] === "movie-this") {
-                movieSearch(dataArr[1]);
-            }
-            else if (dataArr[0] === "do-what-it-says") {
+            if (dataArr[0] === "do-what-it-says") {
                 console.log("I'm not falling for your recursion!");
             }
+            else {
+                userCommand = dataArr[0];
+                fromRandom = dataArr[1];
+                watDo();
+            };
         });
     };
 };
@@ -225,29 +219,48 @@ var educateUser = function() {
     console.log("Type 'node liri.js <command> --help' for additional information about specific commands.");
 };
 
-switch(process.argv[2]) {
-    case "get-tweets":
-    getTweets();
-    break;
-
-    case "my-tweets":
-    myTweets();
-    break;
-
-    case "spotify-this-song":
-    getSpotify();
-    break;
-
-    case "movie-this":
-    movieSearch();
-    break;
-
-    case "do-what-it-says":
-    doWhatItSays();
-    break;
-
-    // I personally never RTFM, so what better way to make me RTFM than to print out the manual itself?
-    default:
-    educateUser();
-    break;
+var watDo = function() {
+    switch(userCommand) {
+        case "get-tweets":
+        if (fromRandom) {
+            getTweets(fromRandom);
+        }
+        else {
+            getTweets();
+        }
+        break;
+    
+        case "my-tweets":
+        myTweets();
+        break;
+    
+        case "spotify-this-song":
+        if (fromRandom) {
+            getSpotify(fromRandom);
+        }
+        else {
+            getSpotify();
+        }
+        break;
+    
+        case "movie-this":
+        if (fromRandom) {
+            movieSearch(fromRandom);
+        }
+        else {
+            movieSearch();
+        }
+        break;
+    
+        case "do-what-it-says":
+        doWhatItSays();
+        break;
+    
+        // I personally never RTFM, so what better way to make me RTFM than to print out the manual itself?
+        default:
+        educateUser();
+        break;
+    };
 };
+
+watDo();
