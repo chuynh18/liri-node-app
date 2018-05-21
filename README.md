@@ -1,9 +1,9 @@
 LIRI readme
 ===========
 
-LIRI is a CLI applet to pull specific types of data from Twitter, Spotify, or OMDb.
+LIRI is a CLI applet to pull specific types of data from Twitter, Spotify, or OMDb.  This guide is written assuming that your current working directory contains liri.js.
 
-This guide is written assuming that your current working directory is the directory that contains liri.js.
+**Note:  If your query contains spaces, escape them with a backslash or use quotes.  I don't support bad behavior, so learn to CLI kthx**
 
 Twitter
 -------
